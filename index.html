@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+</head>
+
+<style>
+    ul.disc{
+        list-style-type: circle;
+    }
+    ul.hollow{
+        list-style-type: disc;
+    }
+    ul.rect{
+        list-style-type: square;
+    }
+</style>
+<body>
+    <h1>Grocery List</h1>
+    <ul class="hollow">
+        <li>Fruits
+            <ul class="disc">
+                <li>Apples</li>
+                <ul class="rect">
+                    <li>Kashmiri</li>
+                    <ol type="1">
+                        <li>14</li>
+                    </ol>
+                    <li>washington</li>
+                    <ol type="A">
+                        <li>20</li>
+                    </ol>
+                </ul>
+                <li>Oranges</li>
+                <li>Bananas</li>
+            </ul>
+
+        </li>
+        <li>Vegetables
+            <ul class="disc">
+                <li>Carrots</li>
+                <li>Broccoli</li>
+                <li>Tomatoes</li>
+            </ul>
+
+        </li>
+        <li>Dairy
+            <ul class="disc">
+            <li>Milk</li>
+            <li>Cheese</li>
+        </ul>
+        </li>
+    </ul>
+    <p>A nested list example representing a grocery shopping list</p>
+</body>
+</html>
